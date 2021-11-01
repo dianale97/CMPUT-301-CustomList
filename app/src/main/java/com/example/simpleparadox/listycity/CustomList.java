@@ -80,9 +80,9 @@ public class CustomList extends ArrayAdapter<City> {
      * This function will delete a city from the list
      * @param city
      */
-    //public void deleteCity(City city) {
-
-    //}
+    public void deleteCity(City city) {
+        return;
+    }
 
     /**
      * This function return how many cities are in the list
