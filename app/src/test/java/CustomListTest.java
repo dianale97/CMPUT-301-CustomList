@@ -24,4 +24,30 @@ public class CustomListTest {
         list.addCity(city);
         assertEquals(size + 1, list.getCount());
     }
+
+    // Lab 8 Participation Exercise
+
+    @Test
+    public void hasCityTest(){
+        City city = new City("Edmonton", "AB");
+        int size = list.getCount();
+        list.addCity(city);
+        assertEquals(size + 1, list.getCount());
+    }
+
+    //@Test
+    //public void deleteCityTest(){
+        //City city = new City("Edmonton", "AB");
+        //list.addCity(city);
+        //list.deleteCity();
+        //assertEquals(size + 1, list.getCount());
+    //}
+
+    //@Test
+    //public void countCityTest(){
+        //City city = new City("Edmonton", "AB");
+        //int size = list.getCount();
+        //list.addCity(city);
+        //assertEquals(size + 1, list.getCount());
+    //}
 }

@@ -10,8 +10,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 public class CustomList extends ArrayAdapter<City> {
@@ -61,6 +59,35 @@ public class CustomList extends ArrayAdapter<City> {
      * @param city
      */
     public void addCity(City city) {
-            cities.add(city);
+
+            return;
     }
+
+    // Lab 8 Participation Exercise
+
+    /**
+     * This function will check if a city belongs in the list
+     * * @return
+     * Return true or false statement
+     */
+    //public void hasCity(City city) {
+
+    //}
+
+    /**
+     * This function will delete a city from the list
+     * @param city
+     */
+    //public void deleteCity(City city) {
+
+    //}
+
+    /**
+     * This function return how many cities are in the list
+     * * @return
+     * Return the number of cities
+     */
+    //public void countCities() {
+
+    //}
 }
