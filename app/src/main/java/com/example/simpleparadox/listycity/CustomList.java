@@ -59,8 +59,8 @@ public class CustomList extends ArrayAdapter<City> {
      * @param city
      */
     public void addCity(City city) {
-
-            return;
+        cities.add(city);
+        return;
     }
 
     // Lab 8 Participation Exercise

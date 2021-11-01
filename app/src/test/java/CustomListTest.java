@@ -30,9 +30,9 @@ public class CustomListTest {
     @Test
     public void hasCityTest(){
         City city = new City("Edmonton", "AB");
-        int size = list.getCount();
         list.addCity(city);
-        assertEquals(size + 1, list.getCount());
+        int size = list.getCount();
+        assertEquals(size, list.getCount());
     }
 
     //@Test
